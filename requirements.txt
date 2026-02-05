@@ -1,0 +1,37 @@
+# AI & Machine Learning
+torch
+torchvision
+transformers
+openai
+langchain
+sentence-transformers
+
+# Computer Vision
+opencv-python
+pillow
+easyocr
+ultralytics  # YOLO for object detection
+mediapipe
+
+# Speech Processing
+speechrecognition
+pyttsx3
+pyaudio
+gtts
+
+# APIs & Web
+fastapi
+uvicorn
+requests
+websockets
+
+# Database
+sqlalchemy
+pymongo
+redis
+
+# Utilities
+numpy
+pandas
+python-dotenv
+pyyaml
