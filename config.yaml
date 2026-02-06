@@ -1,0 +1,39 @@
+app:
+  name: "Vision Assistant for Visually Impaired (AIForUs)"
+  version: "0.0.1"
+  debug: true
+
+ai:
+  llm_provider: "openai" # or local
+  local_model: "microsoft/DialoGPT-small"
+  vision_model: "yolov8n"
+  text_model: "easyocr"
+
+speech:
+  language: "en"
+  speech_rate: 150
+  use_google_tts: false # Use offline by default
+
+vision:
+  camera_index: 0
+  continuous_mode: false
+  detection_confidence: 0.5
+  text_confidence: 0.5
+
+navigation:
+  map_provider: "openstreetmap"
+  emergency_alert: true
+
+database:
+  path: "vision_assistant.db"
+  backup_interval: 24 # in hours
+
+accessibility:
+  voice_feedback: true
+  haptic_feedback: false
+  audio_cues: true
+
+apis:
+  openai_api_key: "${}" # Set my OpenAI API
+  google_maps_key: "${}" # Set my Google Maps API Key
+  weather_api_key: "${}"
