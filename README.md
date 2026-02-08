@@ -11,3 +11,35 @@ An AI-Powered assistant that helps visually impaired people "see" their environm
 ### AI-Powered Vision
 
 -**Real-Time Object Detection** (YOLOv8) -**Text Reading** (OCR with EasyOCR) -**Scene Description** (Image Captioning) -**Face Recognition** (Basic Implementation) -**Environmet Understanding** (LLM Integration)
+
+### Voice Interaction
+
+- **Speech-to-Text** (Google/Offline recognition)
+- **Text-to-Speech** (Natural voice output)
+- **Voice Commands** (Natural Language Processing)
+- **Conversational AI** (Context-aware Responses)
+
+### Navigation Assistance
+
+- **Voice-first Interface** (No visual AI required)
+- **Customization preferences** (Voice speed, detail level)
+- **User memory** (Remembers preferences and faces)
+- **Offline capable** (Works without internet)
+
+## Quick Start
+
+### Prerequisites
+
+- Pyhton 3.8 or higher
+- Camera (webcam or external)
+- Microphone and Speakers
+- 4GB+ RAM (8GB recommended)
+
+### Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/khaf-dev/aiforus.git
+cd aiforus
+
+```
