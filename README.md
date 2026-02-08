@@ -125,4 +125,35 @@ python app.py
 - "What's the weather?" - General questions
 
 
-# Project Structure
+# Vision Assistant Roadmap
+
+## Phase 1: MVP (Complete)
+- [x] Basic object detection
+- [x] Text reading (OCR)
+- [x] Voice interactions
+- [x] Navigation assistance
+- [x] User preferences
+- [x] Documentation
+
+## Phase 2: Enchancement (Current)
+### Q1 2026
+- [] Advanced face recognition
+- [] Indoor navigation (SLAM)
+- [] Indonesian language support
+- [] Mobile App prototype
+- [] Performance optimization
+
+### Q2 2026
+- [] Real-time obstacle detection
+- [] Color identification
+- [] Currency recognition
+- [] Medication identification
+- [] Cloud sync for preferences
+
+## Phase 3: Advanced features
+### Q3 2026
+- [] AR Glasses integration
+- [] Social features (connect with volunteers)
+- [] Educational mode (learn objects)
+- [] Multi-user support
+- [] Advanced AI models
