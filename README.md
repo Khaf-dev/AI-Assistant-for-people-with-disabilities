@@ -98,3 +98,31 @@ GOOGLE_MAPS_API_KEY=your_api_key_here
 WEATHER_API_KEY=your_api_key_here
 
 ```
+
+2. **Adjust setting in config.yaml if needed**
+
+## Usage
+
+```bash
+# Start the assistant
+python app.py
+
+# Or use the provided scripts
+# Windows: run.bat
+# Linux/Mac: ./run.sh
+
+```
+
+# Voice Commands
+
+## Try saying:
+
+- "What's in front of me?" - Scene description
+- "Read the text around" - OCR text reading
+- "Take me to [destination]" - Navigation
+- "Who is this person?" - Face recognition
+- "Help, emergency!" - Emergency mode
+- "What's the weather?" - General questions
+
+
+# Project Structure
