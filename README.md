@@ -10,7 +10,11 @@ An AI-Powered assistant that helps visually impaired people "see" their environm
 
 ### AI-Powered Vision
 
--**Real-Time Object Detection** (YOLOv8) -**Text Reading** (OCR with EasyOCR) -**Scene Description** (Image Captioning) -**Face Recognition** (Basic Implementation) -**Environmet Understanding** (LLM Integration)
+- **Real-Time Object Detection** (YOLOv8)
+- **Text Reading** (OCR with EasyOCR)
+- **Scene Description** (Image Captioning)
+- **Face Recognition** (Basic Implementation)
+- **Environmet Understanding** (LLM Integration)
 
 ### Voice Interaction
 
@@ -43,3 +47,25 @@ git clone https://github.com/khaf-dev/aiforus.git
 cd aiforus
 
 ```
+
+# Automatic setup (recommended)
+
+python deploy.py
+
+# Or manual setup
+
+python -m venv venv
+
+# Activate virtual environment
+
+# Windows:
+
+venv\Scripts\activate
+
+# Linux/Mac:
+
+source venv/bin/activate
+
+# Install dependencies
+
+pip install -r requirements.txt
