@@ -50,22 +50,40 @@ cd aiforus
 
 # Automatic setup (recommended)
 
+```bash
 python deploy.py
+
+```
 
 # Or manual setup
 
+```bash
 python -m venv venv
+
+```
 
 # Activate virtual environment
 
 # Windows:
 
+```bash
+
 venv\Scripts\activate
+
+```
 
 # Linux/Mac:
 
+```bash
+
 source venv/bin/activate
+
+```
 
 # Install dependencies
 
+```bash
+
 pip install -r requirements.txt
+
+```
