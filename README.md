@@ -1,4 +1,4 @@
-# Vision Assistant untuk Tunanetra (Visually Impaired)
+# Vision Assistant untuk Tunanetra (Visually Impaired) DEVELOPMENT STAGE
 
 Aplikasi AI Automation dan Assistant untuk membantu penyandang disabilitas tunanetra.
 
@@ -32,4 +32,7 @@ Aplikasi AI Automation dan Assistant untuk membantu penyandang disabilitas tunan
 
    ```
 
-3. **Edit file .env dengan API keys Anda**
+3. **Edit file .env dengan API keys Anda (Still in the development stage)**
+
+
+4. **Jalankan Aplikasi**
