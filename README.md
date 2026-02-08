@@ -14,7 +14,7 @@ An AI-Powered assistant that helps visually impaired people "see" their environm
 - **Text Reading** (OCR with EasyOCR)
 - **Scene Description** (Image Captioning)
 - **Face Recognition** (Basic Implementation)
-- **Environmet Understanding** (LLM Integration)
+- **Environment Understanding** (LLM Integration)
 
 ### Voice Interaction
 
@@ -34,7 +34,7 @@ An AI-Powered assistant that helps visually impaired people "see" their environm
 
 ### Prerequisites
 
-- Pyhton 3.8 or higher
+- Python 3.8 or higher
 - Camera (webcam or external)
 - Microphone and Speakers
 - 4GB+ RAM (8GB recommended)
