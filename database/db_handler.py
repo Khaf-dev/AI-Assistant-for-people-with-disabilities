@@ -1,10 +1,12 @@
 from sqlalchemy import create_engine, Column, Integer, String, Float, DateTime, JSON
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-import datetime
+from datetime import datetime
 import json
 import os
+import logging
 
+logger = logging.getLogger(__name__)
 
 Base = declarative_base()
 
@@ -16,7 +18,7 @@ class User(Base):
     disability_type = Column(String)
     preferences = Column(JSON) # Store user preferences as JSON
     emergency_contacts = Column(JSON)
-    created_at = Column(DateTime, default=datetime.timezone.utcnow)
+    created_at = Column(DateTime, default=datetime.utcnow)
     
 class ConversationHistory(Base):
     __tablename__ = 'conversations'
@@ -25,7 +27,7 @@ class ConversationHistory(Base):
     user_id = Column(Integer)
     user_input = Column(String)
     assistant_response = Column(String)
-    timestamp = Column(DateTime, default=datetime.timezone.utcnow)
+    timestamp = Column(DateTime, default=datetime.utcnow)
     
 class DatabaseHandler():
     def __init__(self, db_path='vision_assistant.db'):
