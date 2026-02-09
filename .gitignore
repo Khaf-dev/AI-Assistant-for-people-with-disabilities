@@ -1,0 +1,143 @@
+# Git Ignore Rules for Vision Assistant
+
+# Environment variables (NEVER commit .env with real secrets!)
+.env
+.env.local
+.env.*.local
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Virtual Environments
+.venv
+env.bak/
+venv.bak/
+.envrc
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+.project
+.pydevproject
+.settings/
+*.code-workspace
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.hypothesis/
+*.cover
+.nose*
+pytest.ini
+
+# Type checking
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Database files (local instances)
+*.db
+*.sqlite
+*.sqlite3
+vision_assistant.db
+database/*.db
+!database/.gitkeep
+
+# Logs
+*.log
+logs/
+*.lof
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+desktop.ini
+.AppleDouble
+.LSOverride
+._*
+
+# IDE temporary files
+*.bak
+*.tmp
+*~
+
+# Virtual environment
+.venv/
+venv/
+.env
+
+# Model cache
+.cache/
+models/
+*.pt
+*.pth
+*.onnx
+
+# Local development files
+local_test/
+temp/
+tmp/
+.ipynb_checkpoints/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Audio/Video files (if storing locally)
+*.wav
+*.mp3
+*.mp4
+*.avi
+
+# Compiled documentation
+docs/_build/
+site/
+
+# Package files
+*.whl
+*.tar.gz
+
+# Runtime files
+*.pid
+*.sock
+
+# Secrets and sensitive files
+.ssh/
+*.pem
+*.key
+secrets/
+credentials/
