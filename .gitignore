@@ -1,5 +1,11 @@
 # Git Ignore Rules for Vision Assistant
 
+# Developer Documentation (Internal Only)
+# Keep internal notes, progress, etc. out of repo
+dont_add_to_repo/
+*.progress
+*.internal
+
 # Environment variables (NEVER commit .env with real secrets!)
 .env
 .env.local

@@ -19,7 +19,7 @@ gtts
 librosa>=0.10.0
 scipy>=1.10.0
 
-# APIs & Web
+# APIs 
 fastapi
 uvicorn[standard]
 requests
