@@ -340,8 +340,8 @@ python app.py
 
 ## 📚 Documentation Files
 
-- [Voice Commands Reference](../VOICE_COMMANDS.md) - Comprehensive command list
-- [Configuration Guide](../CONFIG_GUIDE.md) - Detailed settings documentation
+- [Voice Commands Reference](../v.1.1/VOICE_COMMANDS.md) - Comprehensive command list
+- [Configuration Guide](../v.1.1/CONFIG_GUIDE.md) - Detailed settings documentation
 - [Architecture Overview](../ARCHITECTURE.md) - System design
 - [Troubleshooting](../TROUBLESHOOTING.md) - Common issues
 - [Contributing](../CONTRIBUTING.md) - Development guidelines
