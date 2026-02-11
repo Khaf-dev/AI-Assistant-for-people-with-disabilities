@@ -6,7 +6,7 @@ Complete documentation for Vision Assistant v1.1.0 - Stable Release
 
 ### Release Information
 
-- **[RELEASE_v1.1.md](./v.1.1/RELEASE_v1.1.md)** - Official v1.1.0 Release Notes
+- **[RELEASE_v1.1.md](RELEASE_v1.1.md)** - Official v1.1.0 Release Notes
   - Major features overview
   - Installation guide
   - System architecture
