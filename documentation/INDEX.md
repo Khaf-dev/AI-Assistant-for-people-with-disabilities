@@ -2,7 +2,20 @@
 
 Complete guide to all Vision Assistant documentation files.
 
-## 📖 Main Documentation Files
+## �️ Quick Navigation
+
+**New to Vision Assistant?** Start here: [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md)
+
+This map provides:
+
+- Role-based documentation paths (End User, Developer, DevOps, Contributor)
+- Quick answers to "I want to..." questions
+- Reading order by scenario
+- Cross-references by topic
+
+---
+
+## �📖 Main Documentation Files
 
 ### User & Project Documentation
 
@@ -14,31 +27,36 @@ Complete guide to all Vision Assistant documentation files.
 
 ### Setup & Installation
 
-| File                               | Purpose                          | When to Use                                    |
-| ---------------------------------- | -------------------------------- | ---------------------------------------------- |
-| [INSTALLATION.md](INSTALLATION.md) | Step-by-step setup guide         | First time setup, troubleshooting setup issues |
-| [QUICKREF.md](QUICKREF.md)         | Quick reference for common tasks | Daily development, common commands             |
+| File                                               | Purpose                          | When to Use                                    |
+| -------------------------------------------------- | -------------------------------- | ---------------------------------------------- |
+| [GETTING_STARTED_v1.1.md](GETTING_STARTED_v1.1.md) | Quick start for v1.1 features    | First time using new features                  |
+| [INSTALLATION.md](INSTALLATION.md)                 | Step-by-step setup guide         | First time setup, troubleshooting setup issues |
+| [QUICKREF.md](QUICKREF.md)                         | Quick reference for common tasks | Daily development, common commands             |
 
 ### Developer Documentation
 
-| File                               | Purpose                            | Audience               | Complexity |
-| ---------------------------------- | ---------------------------------- | ---------------------- | ---------- |
-| [API.md](API.md)                   | Complete API reference             | Developers             | Medium+    |
-| [ARCHITECTURE.md](ARCHITECTURE.md) | System design and architecture     | Developers, Architects | High       |
-| [DEVELOPER.md](DEVELOPER.md)       | Developer guide for extending code | Contributors           | High       |
+| File                                 | Purpose                            | Audience               | Complexity |
+| ------------------------------------ | ---------------------------------- | ---------------------- | ---------- |
+| [API.md](API.md)                     | Complete API reference (legacy)    | Developers             | Medium+    |
+| [API_REFERENCE.md](API_REFERENCE.md) | Complete API reference v1.1        | Developers             | Medium+    |
+| [FEATURES_v1.1.md](FEATURES_v1.1.md) | v1.1 features guide                | All Users              | Medium     |
+| [ARCHITECTURE.md](ARCHITECTURE.md)   | System design and architecture     | Developers, Architects | High       |
+| [DEVELOPER.md](DEVELOPER.md)         | Developer guide for extending code | Contributors           | High       |
 
 ### Operations & Deployment
 
 | File                                     | Purpose                     | When to Use              |
 | ---------------------------------------- | --------------------------- | ------------------------ |
 | [DEPLOYMENT.md](DEPLOYMENT.md)           | Production deployment guide | DevOps, production setup |
+| [CI_CD_PIPELINE.md](CI_CD_PIPELINE.md)   | GitHub Actions CI/CD guide  | DevOps, automation       |
 | [TROUBLESHOOTING.md](TROUBLESHOOTING.md) | Common issues and solutions | When problems occur      |
 
 ### Project Management
 
-| File                         | Purpose                     | Contents               |
-| ---------------------------- | --------------------------- | ---------------------- |
-| [CHANGELOG.md](CHANGELOG.md) | Version history and updates | Release notes, roadmap |
+| File                                           | Purpose                     | Contents                 |
+| ---------------------------------------------- | --------------------------- | ------------------------ |
+| [RELEASE_NOTES_v1.1.md](RELEASE_NOTES_v1.1.md) | v1.1 Release notes          | Features, fixes, roadmap |
+| [CHANGELOG.md](CHANGELOG.md)                   | Version history and updates | Release notes, roadmap   |
 
 ---
 

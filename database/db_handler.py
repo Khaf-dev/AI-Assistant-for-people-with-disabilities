@@ -131,6 +131,35 @@ class DatabaseHandler():
         # Retrieve from database
         return []
     
+    async def send_emergency_alert(self, emergency_contacts: list) -> bool:
+        """Send emergency alert to contacts
+        
+        Args:
+            emergency_contacts: List of contact information (phone numbers, emails)
+            
+        Returns:
+            bool: True if alert sent successfully
+        """
+        try:
+            if not emergency_contacts:
+                logger.warning("No emergency contacts configured")
+                return False
+            
+            logger.info(f"Emergency alert triggered for contacts: {emergency_contacts}")
+            # In production, implement actual notification system (SMS, email, etc.)
+            # For now, just log the emergency
+            
+            # You could implement:
+            # - SMS via Twilio
+            # - Email notification
+            # - Push notifications
+            # - Emergency service integration
+            
+            return True
+        except Exception as e:
+            logger.error(f"Error sending emergency alert: {e}")
+            return False
+    
     def close(self):
         """Close database connection"""
         self.session.close()

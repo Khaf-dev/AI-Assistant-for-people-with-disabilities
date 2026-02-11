@@ -1,15 +1,47 @@
 import requests
-from typing import Dict, List, Tuple
+from typing import Dict, List, Tuple, Optional
 import json
 from geopy.geocoders import Nominatim
 import geocoder
 from math import radians, sin, cos, sqrt, atan2
+import logging
+import yaml
+from pathlib import Path
+
+logger = logging.getLogger(__name__)
 
 class NavigationAssistant:
-    def __init__(self):
+    def __init__(self, config_path: str = "config.yaml"):
         print("Initializing Navigation Assistant...")
+        self.config = self._load_config(config_path)
+        self.nav_config = self.config.get('navigation', {})
+        self.sound_config = self.config.get('sound_localization', {})
+        
         self.geolocator = Nominatim(user_agent="vision_assistant")
         self.api_keys = self._load_api_keys()
+        
+        # Audio guidance settings
+        self.audio_guidance_enabled = self.nav_config.get('audio_guidance', True)
+        self.voice_directions_frequency = self.nav_config.get('voice_directions_frequency', 'periodic')
+        
+        # Navigation state
+        self.current_route = None
+        self.next_waypoint_idx = 0
+        self.current_location = None
+        
+        logger.info(f"NavigationAssistant initialized (audio_guidance: {self.audio_guidance_enabled})")
+    
+    def _load_config(self, config_path: str) -> dict:
+        """Load configuration from YAML file"""
+        try:
+            config_file = Path(config_path)
+            if config_file.exists():
+                with open(config_file, 'r', encoding='utf-8') as f:
+                    return yaml.safe_load(f) or {}
+            return {}
+        except Exception as e:
+            logger.warning(f"Could not load config: {e}")
+            return {}
         
     async def get_current_location(self) -> Dict:
         """Get current location using IP of GPS"""
@@ -174,6 +206,107 @@ class NavigationAssistant:
         # For demonstration, just print
         for contact in contacts:
             print(f"Alert sent to {contact}")
+    
+    async def get_audio_guidance(self, sound_info: Dict) -> Optional[str]:
+        """
+        Get navigation guidance based on detected sounds
+        
+        Args:
+            sound_info: Sound localization info with angle and distance
+        
+        Returns:
+            Navigation guidance as string
+        """
+        if not self.audio_guidance_enabled or not sound_info:
+            return None
+        
+        try:
+            direction = sound_info.get('direction', 'Front')
+            distance = sound_info.get('distance_meters', 0)
+            confidence = sound_info.get('confidence', 0)
+            
+            if confidence < 0.5:
+                return "Sound detected but low confidence. Please listen carefully."
+            
+            # Provide navigation guidance
+            if distance < 1.0:
+                guidance = f"Sound is very close, {distance:.1f} meters {direction}"
+            elif distance < 5.0:
+                guidance = f"Sound detected {distance:.1f} meters {direction}"
+            else:
+                guidance = f"Distant sound detected {direction}"
+            
+            return guidance
+        
+        except Exception as e:
+            logger.error(f"Error getting audio guidance: {e}")
+            return None
+    
+    async def assist_with_obstacles(self, obstacles: List[Dict]) -> Optional[str]:
+        """
+        Provide navigation assistance based on detected obstacles
+        
+        Args:
+            obstacles: List of detected obstacles from sound
+        
+        Returns:
+            Warning/guidance about obstacles
+        """
+        if not obstacles:
+            return "No obstacles detected. Path is clear."
+        
+        try:
+            warnings = []
+            
+            for obstacle in obstacles:
+                distance = obstacle.get('estimated_distance_meters', 0)
+                obs_type = obstacle.get('type', 'unknown')
+                confidence = obstacle.get('confidence', 0)
+                
+                if distance < 1.0:
+                    warnings.append(f"CAREFUL: {obs_type} detected {distance:.1f} meters ahead!")
+                elif distance < 3.0:
+                    warnings.append(f"Warning: {obs_type} at {distance:.1f} meters")
+            
+            return " ".join(warnings) if warnings else "Possible obstacles in your path. Proceed with caution."
+        
+        except Exception as e:
+            logger.error(f"Error assisting with obstacles: {e}")
+            return None
+    
+    async def get_next_direction(self, current_sound: Optional[Dict] = None) -> Optional[str]:
+        """
+        Get next navigation direction, optionally using sound cues
+        
+        Args:
+            current_sound: Optional sound localization info for guidance
+        
+        Returns:
+            Next direction instruction
+        """
+        if not self.current_route or self.next_waypoint_idx >= len(self.current_route.get('steps', [])):
+            return "Route complete."
+        
+        try:
+            current_step = self.current_route['steps'][self.next_waypoint_idx]
+            instruction = current_step.get('instruction', 'Continue forward')
+            
+            # Enhance with audio guidance if available
+            if current_sound and self.audio_guidance_enabled:
+                direction = current_sound.get('direction', '')
+                if direction:
+                    instruction += f" (Sound detected {direction})"
+            
+            return instruction
+        
+        except Exception as e:
+            logger.error(f"Error getting next direction: {e}")
+            return None
+    
+    def set_audio_guidance(self, enabled: bool) -> None:
+        """Enable/disable audio-assisted navigation"""
+        self.audio_guidance_enabled = enabled
+        logger.info(f"Audio guidance {'enabled' if enabled else 'disabled'}")
             
     def _load_api_keys(self):
         """Load API keys from configuration"""

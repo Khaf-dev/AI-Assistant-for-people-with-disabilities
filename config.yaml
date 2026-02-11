@@ -10,9 +10,51 @@ ai:
   text_model: "easyocr"
 
 speech:
-  language: "en"
+  language: "en" # Default: en (English), id (Indonesian), es (Spanish), fr (French)
   speech_rate: 150
   use_google_tts: false # Use offline by default
+  # Language configurations
+  languages:
+    en:
+      name: "English"
+      voice_id: 0 # Default voice ID for pyttsx3
+      gtts_lang: "en"
+      recognition_lang: "en-US"
+    id:
+      name: "Indonesian"
+      voice_id: 0
+      gtts_lang: "id"
+      recognition_lang: "id-ID"
+    es:
+      name: "Spanish"
+      voice_id: 0
+      gtts_lang: "es"
+      recognition_lang: "es-ES"
+    fr:
+      name: "French"
+      voice_id: 0
+      gtts_lang: "fr"
+      recognition_lang: "fr-FR"
+    de:
+      name: "German"
+      voice_id: 0
+      gtts_lang: "de"
+      recognition_lang: "de-DE"
+    pt:
+      name: "Portuguese"
+      voice_id: 0
+      gtts_lang: "pt"
+      recognition_lang: "pt-BR"
+    ja:
+      name: "Japanese"
+      voice_id: 0
+      gtts_lang: "ja"
+      recognition_lang: "ja-JP"
+    zh:
+      name: "Mandarin Chinese"
+      voice_id: 0
+      gtts_lang: "zh-CN"
+      recognition_lang: "zh-CN"
 
 vision:
   camera_index: 0
@@ -20,9 +62,68 @@ vision:
   detection_confidence: 0.5
   text_confidence: 0.5
 
+face_recognition:
+  enabled: true
+  mode: "hybrid" # hybrid, cloud, local
+  model: "hog" # hog (fast, less accurate) or cnn (slower, more accurate)
+  detection_confidence: 0.6 # Face detection confidence threshold
+  recognition_confidence: 0.6 # Face recognition match threshold
+  max_distance: 0.6 # Maximum face distance for match
+  enable_training: true # Allow enrollment of new faces
+  auto_save_encodings: true # Save face encodings automatically
+  max_faces_per_person: 10 # Maximum training samples per person
+  encoding_model: "resnet" # resnet or vggface2
+
+sound_localization:
+  enabled: true
+  mode: "real-time" # real-time, background, on-demand
+  audio_source: "microphone" # microphone, usb_device, array
+  sample_rate: 16000 # Hz for audio sampling
+  chunk_size: 1024 # Samples per chunk
+  channels: 1 # Mono (1) or Stereo (2)
+
+  # Sound detection settings
+  detection:
+    enabled: true
+    min_frequency: 50 # Hz - minimum sound frequency to detect
+    max_frequency: 8000 # Hz - maximum sound frequency
+    noise_threshold: -40 # dB - noise floor
+    sound_sensitivity: 0.5 # 0.0 (sensitive) to 1.0 (filtered)
+
+  # Localization settings
+  localization:
+    enabled: true
+    method: "beamforming" # beamforming, time-difference, phase-shift
+    num_directions: 8 # Number of angle bins (8 = 45° resolution)
+    angle_resolution: 45 # Degrees per bin
+    max_range: 10 # Meters - maximum localization range
+
+  # Obstacle detection
+  obstacles:
+    enabled: true
+    detection_timeout: 2.0 # Seconds to detect obstacles
+    warning_threshold: 2.0 # Meters - distance to warn user
+    continuous_monitoring: true
+
+  # Audio classification
+  audio_classification:
+    enabled: true
+    classify_sounds: true # Identify sound types (speech, alarm, door, etc.)
+    confidence_threshold: 0.7
+
+  # Alerts
+  alerts:
+    speech_alert: true
+    haptic_alert: false
+    frequency: 1000 # Hz - alert tone frequency
+    duration: 0.2 # Seconds - alert duration
+
 navigation:
   map_provider: "openstreetmap"
   emergency_alert: true
+  audio_guidance: true # Use sound localization for navigation
+  haptic_feedback: false
+  voice_directions_frequency: "periodic" # constant, periodic, on-demand
 
 database:
   path: "vision_assistant.db"

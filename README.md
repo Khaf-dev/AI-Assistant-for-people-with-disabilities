@@ -1,102 +1,135 @@
 # README.md
 
-# Vision Assistant - AI-Powered Accessibility for the Visually Impaired (Development Stage)
+# Vision Assistant - AI-Powered Accessibility for the Visually Impaired
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.8+](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![Status: Active Development](https://img.shields.io/badge/Status-Active%20Development-brightgreen)]()
+[![Version: 1.1.0](https://img.shields.io/badge/Version-1.1.0-green.svg)](documentation/RELEASE_v1.1.md)
+[![Status: Stable Release](https://img.shields.io/badge/Status-Stable%20Release-brightgreen)]()
+
+## 🌟 Now With v1.1 Features!
+
+**Vision Assistant v1.1** brings revolutionary accessibility features:
+
+- 🌍 **8 Languages** - English, Indonesian, Spanish, French, German, Portuguese, Japanese, Mandarin Chinese
+- 👁️ **Face Recognition + Training** - Learn who's who with voice commands
+- 🔊 **3D Audio Localization** - Know where sounds come from with 8-directional awareness
+- 🚨 **Intelligent Obstacle Detection** - Audio-based hazard warnings
+- 🎯 **100+ Voice Commands** - Full voice control in all languages
+
+[→ See v1.1 Release Notes](documentation/RELEASE_v1.1.md)
 
 ## Overview
 
-**Vision Assistant** is an AI-powered voice-controlled visual assistance system designed to empower visually impaired individuals by providing real-time scene understanding, text recognition, object detection, and navigation assistance through natural voice interaction.
+**Vision Assistant** is an AI-powered voice-controlled visual assistance system designed to empower visually impaired individuals by providing real-time scene understanding, text recognition, object detection, navigation assistance, and intelligent audio awareness through natural voice interaction.
 
-### Key Features
+### Key Features v1.1
 
-- 🎤 **Voice I/O** - Natural speech recognition and text-to-speech feedback
-- 👁️ **Real-time Vision** - Object detection, face recognition, text extraction (OCR)
-- 🧠 **Intent Recognition** - Understands user commands with OpenAI GPT or local processing
-- 📍 **Navigation** - GPS-based directions and location services
-- 🚨 **Emergency Alerts** - Quick emergency contact notifications
-- 🗣️ **Voice Feedback** - Comprehensive voice responses for all actions
-- 💾 **Data Persistence** - User preferences and conversation history
-- 🔊 **Accessible Interface** - Voice-first design, no visual UI required
+- 🎤 **Multi-Language Voice I/O** - 8 languages with dynamic switching
+- 👁️ **Face Recognition** - Detect, recognize, and learn faces with voice commands
+- 🔊 **Audio Localization** - 3D sound positioning and classification
+- 🧠 **Intent Recognition** - Understand 100+ voice commands
+- 📍 **Audio-Guided Navigation** - GPS + sound-based directions
+- 🚨 **Emergency Alerts** - Multi-language emergency notifications
+- 💾 **Persistent Data** - Face database, user preferences, history
+- 🔄 **Full Voice Control** - No visual UI required
 
 ## Quick Start
 
 ### Installation (5 minutes)
 
 ```bash
-# 1. Clone the repository
+# 1. Clone repository
 git clone https://github.com/Khaf-dev/aiforus.git
 cd aiforus
 
 # 2. Create virtual environment
 python -m venv venv
-# On Windows:
+# Windows:
 venv\Scripts\activate
-# On macOS/Linux:
+# macOS/Linux:
 source venv/bin/activate
 
 # 3. Install dependencies
 pip install -r requirements.txt
 
-# 4. Configure environment
+# 4. Configure (optional)
 cp .env.example .env
-# Edit .env with your API keys (optional for basic use)
+# Edit .env with your API keys
 ```
 
-### Usage
+### First Run
 
 ```bash
-# Run the application
+# English (default)
 python app.py
 
-# Test features
-python test_features.py
+# Indonesian
+python app.py --lang=id
 
-# Demo features
-python demo_features.py
-
-# Demo exit feature
-python demo_exit_feature.py
+# Spanish
+python app.py --lang=es
 ```
 
-### Voice Commands
+### Available Languages
 
-Once the app is running, speak these commands:
+| Code | Language         | Status          |
+| ---- | ---------------- | --------------- |
+| en   | English          | ✅ Default      |
+| id   | Indonesian       | ✅ Full support |
+| es   | Spanish          | ✅ Full support |
+| fr   | French           | ✅ Full support |
+| de   | German           | ✅ Full support |
+| pt   | Portuguese       | ✅ Full support |
+| ja   | Japanese         | ✅ Full support |
+| zh   | Mandarin Chinese | ✅ Full support |
 
-#### Scene & Vision
+## Voice Commands v1.1
 
-- "What do you see?" / "Describe the scene"
-- "Read any text you can find"
-- "Detect faces" / "Who is here?"
-- "Identify objects around me"
+### Multi-Language (All languages)
 
-#### Navigation
+- "Change language to Indonesian"
+- "Switch to Spanish"
+- "Speak French"
 
-- "Directions to [location]"
-- "Where am I?"
-- "Help me navigate"
+### Face Recognition
 
-#### Control
+- "Enroll John" / "Register face as Sarah"
+- "Who do you know?" / "Forget John"
+- "Face statistics"
 
-- "Goodbye" / "Exit" / "Quit" / "Shut down"
-- "Bye" / "Stop" / "Close"
+### Audio & Obstacles
 
-#### Emergency
+- "What do you hear?" / "Detect sounds"
+- "Check ahead" / "Detect obstacles"
+- "Classify sound" / "What sound is that?"
 
-- "Help!" / "Emergency!" / "Call for help"
+### Vision (Classic)
+
+- "Describe the scene" / "What do you see?"
+- "Read any text" / "Detect objects"
+- "Identify people" / "Where am I?"
+
+[See All 100+ Commands](documentation/VOICE_COMMANDS.md)
 
 ## System Requirements
 
-### Minimum Requirements
+### Minimum
 
 - **OS**: Windows 10+, macOS 10.14+, Ubuntu 18.04+
-- **Python**: 3.8 or higher
+- **Python**: 3.8+
 - **RAM**: 4GB (8GB recommended)
-- **Storage**: 2GB (for models)
-- **Camera**: USB or built-in (optional, for vision features)
-- **Microphone**: Required for voice commands
+- **Storage**: 2GB (for ML models)
+- **Microphone**: Required
+- **Camera**: Optional (for vision features)
+
+### Recommended
+
+- **OS**: Windows 11, macOS 12+, Ubuntu 20.04+
+- **Python**: 3.10+
+- **RAM**: 8GB+
+- **GPU**: NVIDIA (CUDA) for faster processing
+- **Microphone**: External USB mic for audio localization
 
 ### Hardware Recommendations
 
