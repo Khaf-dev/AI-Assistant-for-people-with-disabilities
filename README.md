@@ -17,7 +17,7 @@
 - 🚨 **Intelligent Obstacle Detection** - Audio-based hazard warnings
 - 🎯 **100+ Voice Commands** - Full voice control in all languages
 
-[→ See v1.1 Release Notes](documentation/RELEASE_v1.1.md)
+[→ See v1.1 Release Notes](documentation/v.1.1/RELEASE_v1.1.md)
 
 ## Overview
 
