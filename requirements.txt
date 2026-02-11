@@ -23,6 +23,7 @@ scipy>=1.10.0
 fastapi
 uvicorn[standard]
 requests
+geocoder
 
 # Database
 sqlalchemy
