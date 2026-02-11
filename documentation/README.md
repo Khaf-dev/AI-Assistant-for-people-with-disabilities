@@ -6,7 +6,7 @@ Complete documentation for Vision Assistant v1.1.0 - Stable Release
 
 ### Release Information
 
-- **[RELEASE_v1.1.md](RELEASE_v1.1.md)** - Official v1.1.0 Release Notes
+- **[RELEASE_v1.1.md](./v.1.1/RELEASE_v1.1.md)** - Official v1.1.0 Release Notes
   - Major features overview
   - Installation guide
   - System architecture
@@ -28,7 +28,7 @@ Complete documentation for Vision Assistant v1.1.0 - Stable Release
   - Error handling
   - Usage workflows
 
-- **[CONFIG_GUIDE.md](v.1.1/CONFIG_GUIDE.md)** - Configuration Reference
+- **[CONFIG_GUIDE.md](./v.1.1/CONFIG_GUIDE.md)** - Configuration Reference
   - Speech configuration (8 languages)
   - Face recognition settings
   - Sound localization parameters
@@ -54,7 +54,7 @@ Complete documentation for Vision Assistant v1.1.0 - Stable Release
 
 ### Support & Troubleshooting
 
-- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Common Issues & Solutions
+- **[TROUBLESHOOTING.md](.TROUBLESHOOTING.md)** - Common Issues & Solutions
   - Audio issues
   - Face recognition problems
   - Speech recognition errors
