@@ -12,7 +12,7 @@ ultralytics
 
 # Speech processing
 speechrecognition
-pyttsx
+pyttsx3
 gtts
 
 # Audio processing (for sound localization - v1.1+)
