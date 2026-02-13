@@ -793,7 +793,7 @@ jobs:
 
 ## See Also
 
-- [ARCHITECTURE.md](ARCHITECTURE.md) - System design
-- [CONTRIBUTING.md](../CONTRIBUTING.md) - Contribution guidelines
-- [API.md](API.md) - API reference
-- [README.md](../README.md) - Project overview
+- [ARCHITECTURE.md](../ARCHITECTURE.md) - System design
+- [CONTRIBUTING.md](../guidelines/CONTRIBUTING.md) - Contribution guidelines
+- [API.md](../API.md) - API reference
+- [README.md](/README.md) - Project overview

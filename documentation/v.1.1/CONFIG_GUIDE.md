@@ -548,4 +548,4 @@ print(f'✓ Available languages: {list(se.get_available_languages().keys())}')
 - **Config Format:** YAML
 - **Environment File:** .env (optional)
 
-For updates and changes: See [CHANGELOG.md](../CHANGELOG.md)
+For updates and changes: See [CHANGELOG.md](../log/CHANGELOG.md)

@@ -262,9 +262,9 @@ Complete documentation added:
 
 | Document                                             | Purpose                          |
 | ---------------------------------------------------- | -------------------------------- |
-| [FEATURES_v1.1.md](documentation/FEATURES_v1.1.md)   | Feature guides with API examples |
-| [API_REFERENCE.md](documentation/API_REFERENCE.md)   | Complete v1.1 API reference      |
-| [CI_CD_PIPELINE.md](documentation/CI_CD_PIPELINE.md) | GitHub Actions CI/CD guide       |
+| [FEATURES_v1.1.md](FEATURES_v1.1.md)   | Feature guides with API examples |
+| [API_REFERENCE.md](../guidelines/API_REFERENCE.md)   | Complete v1.1 API reference      |
+| [CI_CD_PIPELINE.md](../CI_CD_PIPELINE.md) | GitHub Actions CI/CD guide       |
 
 ---
 
@@ -438,7 +438,7 @@ API: documentation/API_REFERENCE.md
 
 ### Contributing
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines
+See [CONTRIBUTING.md](../guidelines/CONTRIBUTING.md) for guidelines
 
 ---
 
@@ -480,7 +480,7 @@ print('✓ All imports successful')
 
 Vision Assistant v1.1.0  
 Copyright © 2024-2026 Khaf-dev & Contributors  
-Licensed under MIT License - See [LICENSE](../LICENSE)
+Licensed under MIT License - See [LICENSE](/LICENSE)
 
 ---
 

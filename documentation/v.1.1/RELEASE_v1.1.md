@@ -340,11 +340,11 @@ python app.py
 
 ## 📚 Documentation Files
 
-- [Voice Commands Reference](../v.1.1/VOICE_COMMANDS.md) - Comprehensive command list
-- [Configuration Guide](../v.1.1/CONFIG_GUIDE.md) - Detailed settings documentation
+- [Voice Commands Reference](VOICE_COMMANDS.md) - Comprehensive command list
+- [Configuration Guide](CONFIG_GUIDE.md) - Detailed settings documentation
 - [Architecture Overview](../ARCHITECTURE.md) - System design
 - [Troubleshooting](../TROUBLESHOOTING.md) - Common issues
-- [Contributing](../CONTRIBUTING.md) - Development guidelines
+- [Contributing](../guidelines/CONTRIBUTING.md) - Development guidelines
 
 ---
 
@@ -399,7 +399,7 @@ We welcome contributions! Areas for improvement:
 - [ ] Enhanced testing coverage
 - [ ] Documentation translations
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
+See [CONTRIBUTING.md](../guidelines/CONTRIBUTING.md) for guidelines.
 
 ---
 
@@ -414,7 +414,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for guidelines.
 
 ## 📄 License
 
-MIT License - See [LICENSE](../LICENSE) file
+MIT License - See [LICENSE](/LICENSE) file
 
 ---
 

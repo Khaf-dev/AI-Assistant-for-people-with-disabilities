@@ -408,7 +408,7 @@ If you accidentally commit secrets, tell the team immediately.
 
 ## 📞 Questions?
 
-- **Local development**: See [INSTALLATION.md](INSTALLATION.md)
+- **Local development**: See [INSTALLATION.md](./setup/INSTALLATION.md)
 - **Deployment**: See [DEPLOYMENT.md](DEPLOYMENT.md)
 - **General help**: See [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 - **Report security issues**: Create private security advisory (GitHub)

@@ -556,16 +556,16 @@ face_recognition:
 3. **Enroll Faces:** Create your personal AI assistant
 4. **Configure Settings:** Tune for your environment
 5. **Read Full Docs:** See [FEATURES_v1.1.md](FEATURES_v1.1.md)
-6. **Explore API:** Check [API_REFERENCE.md](API_REFERENCE.md)
+6. **Explore API:** Check [API_REFERENCE.md](../guidelines/API_REFERENCE.md)
 
 ---
 
 ## Need Help?
 
-- **Issues:** Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
-- **API Details:** See [API_REFERENCE.md](API_REFERENCE.md)
+- **Issues:** Check [TROUBLESHOOTING.md](../TROUBLESHOOTING.md)
+- **API Details:** See [API_REFERENCE.md](../guidelines/API_REFERENCE.md)
 - **Features Guide:** Read [FEATURES_v1.1.md](FEATURES_v1.1.md)
-- **Contributing:** See [CONTRIBUTING.md](../CONTRIBUTING.md)
+- **Contributing:** See [CONTRIBUTING.md](../guidelines/CONTRIBUTING.md)
 
 ---
 

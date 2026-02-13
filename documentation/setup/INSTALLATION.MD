@@ -871,10 +871,10 @@ find . -type f -name "*.pyc" -delete
 ## Next Steps
 
 1. ✅ Installation complete
-2. 📖 Read [README.md](../README.md) for project overview
-3. 🚀 Try [QUICKREF.md](QUICKREF.md) for voice commands
-4. 🔧 See [ARCHITECTURE.md](ARCHITECTURE.md) to understand the system
-5. 🐛 Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md) if issues occur
+2. 📖 Read [README.md](/README.md) for project overview
+3. 🚀 Try [QUICKREF.md](../QUICKREF.md) for voice commands
+4. 🔧 See [ARCHITECTURE.md](../ARCHITECTURE.md) to understand the system
+5. 🐛 Check [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) if issues occur
 
 ---
 
@@ -882,16 +882,16 @@ find . -type f -name "*.pyc" -delete
 
 ### Documentation
 
-- [README.md](../README.md) - Project overview
-- [QUICKREF.md](QUICKREF.md) - Quick reference
-- [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Common issues
-- [INDEX.md](INDEX.md) - Documentation index
+- [README.md](/README.md) - Project overview
+- [QUICKREF.md](../QUICKREF.md) - Quick reference
+- [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) - Common issues
+- [INDEX.md](../INDEX.md) - Documentation index
 
 ### Support
 
-- Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md) first
+- Check [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) first
 - Review [GitHub Issues](https://github.com/Khaf-dev/aiforus/issues)
-- See [CONTRIBUTING.md](../CONTRIBUTING.md) to report issues
+- See [CONTRIBUTING.md](../guidelines/CONTRIBUTING.md) to report issues
 
 ---
 
@@ -921,4 +921,4 @@ find . -type f -name "*.pyc" -delete
 **Last Updated**: 2024-12-20  
 **Status**: ✅ Production Ready
 
-See [INDEX.md](INDEX.md) for complete documentation navigation.
+See [INDEX.md](../INDEX.md) for complete documentation navigation.

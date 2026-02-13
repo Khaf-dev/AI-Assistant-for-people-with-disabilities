@@ -732,7 +732,7 @@ docker run -it vision-assistant:dev python -c "import app"
 
 ## See Also
 
-- [INSTALLATION.md](INSTALLATION.md) - Setup guide
+- [INSTALLATION.md](./setup/INSTALLATION.md) - Setup guide
 - [ARCHITECTURE.md](ARCHITECTURE.md) - System design
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Debugging issues
 - [README.md](../README.md) - Project overview

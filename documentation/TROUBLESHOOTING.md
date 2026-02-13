@@ -759,6 +759,6 @@ type vision_assistant.log | More
 
 ## See Also
 
-- [INSTALLATION.md](INSTALLATION.md) - Setup guide
+- [INSTALLATION.md](./setup/INSTALLATION.md) - Setup guide
 - [README.md](../README.md) - Project overview
-- [CONTRIBUTING.md](../CONTRIBUTING.md) - How to contribute
+- [CONTRIBUTING.md](./guidelines/CONTRIBUTING.md) - How to contribute

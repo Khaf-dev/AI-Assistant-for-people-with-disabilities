@@ -380,7 +380,7 @@ This project uses [Semantic Versioning](https://semver.org/):
 
 ## See Also
 
-- [README.md](../README.md) - Project overview
-- [CONTRIBUTING.md](../CONTRIBUTING.md) - How to contribute
-- [API.md](API.md) - API reference
-- [ARCHITECTURE.md](ARCHITECTURE.md) - System design
+- [README.md](/README.md) - Project overview
+- [CONTRIBUTING.md](../guidelines/CONTRIBUTING.md) - How to contribute
+- [API.md](../API.md) - API reference
+- [ARCHITECTURE.md](../ARCHITECTURE.md) - System design

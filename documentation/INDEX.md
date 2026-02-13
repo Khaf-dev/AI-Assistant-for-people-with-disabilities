@@ -4,7 +4,7 @@ Complete guide to all Vision Assistant documentation files.
 
 ## �️ Quick Navigation
 
-**New to Vision Assistant?** Start here: [DOCUMENTATION_MAP.md](DOCUMENTATION_MAP.md)
+**New to Vision Assistant?** Start here: [DOCUMENTATION_MAP.md](./v.1.1/DOCUMENTATION_MAP.md)
 
 This map provides:
 
@@ -19,29 +19,29 @@ This map provides:
 
 ### User & Project Documentation
 
-| File                                  | Purpose                       | Audience         | Topics                                           |
-| ------------------------------------- | ----------------------------- | ---------------- | ------------------------------------------------ |
-| [README.md](../README.md)             | Project overview and features | Everyone         | Overview, features, quick start, troubleshooting |
-| [LICENSE](../LICENSE)                 | MIT License                   | Legal/Developers | Copyright, license terms                         |
-| [CONTRIBUTING.md](../CONTRIBUTING.md) | How to contribute             | Contributors     | Code style, PR process, guidelines               |
+| File                                            | Purpose                       | Audience         | Topics                                           |
+| ----------------------------------------------- | ----------------------------- | ---------------- | ------------------------------------------------ |
+| [README.md](../README.md)                       | Project overview and features | Everyone         | Overview, features, quick start, troubleshooting |
+| [LICENSE](../LICENSE)                           | MIT License                   | Legal/Developers | Copyright, license terms                         |
+| [CONTRIBUTING.md](./guidelines/CONTRIBUTING.md) | How to contribute             | Contributors     | Code style, PR process, guidelines               |
 
 ### Setup & Installation
 
-| File                                               | Purpose                          | When to Use                                    |
-| -------------------------------------------------- | -------------------------------- | ---------------------------------------------- |
-| [GETTING_STARTED_v1.1.md](GETTING_STARTED_v1.1.md) | Quick start for v1.1 features    | First time using new features                  |
-| [INSTALLATION.md](INSTALLATION.md)                 | Step-by-step setup guide         | First time setup, troubleshooting setup issues |
-| [QUICKREF.md](QUICKREF.md)                         | Quick reference for common tasks | Daily development, common commands             |
+| File                                                       | Purpose                          | When to Use                                    |
+| ---------------------------------------------------------- | -------------------------------- | ---------------------------------------------- |
+| [GETTING_STARTED_v1.1.md](./v.1.1/GETTING_STARTED_v1.1.md) | Quick start for v1.1 features    | First time using new features                  |
+| [INSTALLATION.md](./setup/INSTALLATION.md)                 | Step-by-step setup guide         | First time setup, troubleshooting setup issues |
+| [QUICKREF.md](QUICKREF.md)                                 | Quick reference for common tasks | Daily development, common commands             |
 
 ### Developer Documentation
 
-| File                                 | Purpose                            | Audience               | Complexity |
-| ------------------------------------ | ---------------------------------- | ---------------------- | ---------- |
-| [API.md](API.md)                     | Complete API reference (legacy)    | Developers             | Medium+    |
-| [API_REFERENCE.md](API_REFERENCE.md) | Complete API reference v1.1        | Developers             | Medium+    |
-| [FEATURES_v1.1.md](FEATURES_v1.1.md) | v1.1 features guide                | All Users              | Medium     |
-| [ARCHITECTURE.md](ARCHITECTURE.md)   | System design and architecture     | Developers, Architects | High       |
-| [DEVELOPER.md](DEVELOPER.md)         | Developer guide for extending code | Contributors           | High       |
+| File                                              | Purpose                            | Audience               | Complexity |
+| ------------------------------------------------- | ---------------------------------- | ---------------------- | ---------- |
+| [API.md](API.md)                                  | Complete API reference (legacy)    | Developers             | Medium+    |
+| [API_REFERENCE.md](./guidelines/API_REFERENCE.md) | Complete API reference v1.1        | Developers             | Medium+    |
+| [FEATURES_v1.1.md](./v.1.1/FEATURES_v1.1.md)      | v1.1 features guide                | All Users              | Medium     |
+| [ARCHITECTURE.md](ARCHITECTURE.md)                | System design and architecture     | Developers, Architects | High       |
+| [DEVELOPER.md](./setup/DEVELOPER.md)              | Developer guide for extending code | Contributors           | High       |
 
 ### Operations & Deployment
 
@@ -53,10 +53,10 @@ This map provides:
 
 ### Project Management
 
-| File                                           | Purpose                     | Contents                 |
-| ---------------------------------------------- | --------------------------- | ------------------------ |
-| [RELEASE_NOTES_v1.1.md](RELEASE_NOTES_v1.1.md) | v1.1 Release notes          | Features, fixes, roadmap |
-| [CHANGELOG.md](CHANGELOG.md)                   | Version history and updates | Release notes, roadmap   |
+| File                                                   | Purpose                     | Contents                 |
+| ------------------------------------------------------ | --------------------------- | ------------------------ |
+| [RELEASE_NOTES_v1.1.md](./v.1.1/RELEASE_NOTES_v1.1.md) | v1.1 Release notes          | Features, fixes, roadmap |
+| [CHANGELOG.md](./log/CHANGELOG.md)                     | Version history and updates | Release notes, roadmap   |
 
 ---
 
@@ -67,22 +67,22 @@ This map provides:
 **👤 End Users**
 
 1. Start with: [README.md](../README.md)
-2. Setup: [INSTALLATION.md](INSTALLATION.md)
+2. Setup: [INSTALLATION.md](./setup/INSTALLATION.md)
 3. Use: [QUICKREF.md](QUICKREF.md) - Voice commands
 4. Issues: [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 
 **👨‍💻 Developers**
 
 1. Start with: [README.md](../README.md)
-2. Setup: [INSTALLATION.md](INSTALLATION.md)
+2. Setup: [INSTALLATION.md](./setup/INSTALLATION.md)
 3. Learn: [ARCHITECTURE.md](ARCHITECTURE.md)
 4. Reference: [API.md](API.md)
-5. Extend: [DEVELOPER.md](DEVELOPER.md)
-6. Contribute: [CONTRIBUTING.md](../CONTRIBUTING.md)
+5. Extend: [DEVELOPER.md](./setup/DEVELOPER.md)
+6. Contribute: [CONTRIBUTING.md](./guidelines/CONTRIBUTING.md)
 
 **🚀 DevOps/SysAdmins**
 
-1. Setup: [INSTALLATION.md](INSTALLATION.md)
+1. Setup: [INSTALLATION.md](./setup/INSTALLATION.md)
 2. Deploy: [DEPLOYMENT.md](DEPLOYMENT.md)
 3. Monitor: [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 4. Learn: [ARCHITECTURE.md](ARCHITECTURE.md)
@@ -91,9 +91,9 @@ This map provides:
 
 1. Overview: [README.md](../README.md)
 2. Architecture: [ARCHITECTURE.md](ARCHITECTURE.md)
-3. Development: [DEVELOPER.md](DEVELOPER.md)
-4. Releases: [CHANGELOG.md](CHANGELOG.md)
-5. Contributing: [CONTRIBUTING.md](../CONTRIBUTING.md)
+3. Development: [DEVELOPER.md](./setup/DEVELOPER.md)
+4. Releases: [CHANGELOG.md](./log/CHANGELOG.md)
+5. Contributing: [CONTRIBUTING.md](./guidelines/CONTRIBUTING.md)
 
 ---
 
@@ -101,7 +101,7 @@ This map provides:
 
 ### Installation & Setup
 
-- [INSTALLATION.md](INSTALLATION.md) - Platform-specific setup guide
+- [INSTALLATION.md](./setup/INSTALLATION.md) - Platform-specific setup guide
 - [QUICKREF.md](QUICKREF.md) - Quick start commands
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Common setup issues
 
@@ -115,8 +115,8 @@ This map provides:
 
 - [ARCHITECTURE.md](ARCHITECTURE.md) - System design
 - [API.md](API.md) - API reference
-- [DEVELOPER.md](DEVELOPER.md) - Writing code
-- [CONTRIBUTING.md](../CONTRIBUTING.md) - Contribution process
+- [DEVELOPER.md](./setup/DEVELOPER.md) - Writing code
+- [CONTRIBUTING.md](./guidelines/CONTRIBUTING.md) - Contribution process
 
 ### Operations
 
@@ -127,7 +127,7 @@ This map provides:
 ### Project
 
 - [README.md](../README.md) - Project overview
-- [CHANGELOG.md](CHANGELOG.md) - Release history
+- [CHANGELOG.md](./log/CHANGELOG.md) - Release history
 - [LICENSE](../LICENSE) - Legal terms
 
 ---
@@ -138,27 +138,27 @@ This map provides:
 
 | Question                    | Answer                                                 |
 | --------------------------- | ------------------------------------------------------ |
-| ...install the application? | [INSTALLATION.md](INSTALLATION.md)                     |
+| ...install the application? | [INSTALLATION.md](./setup/INSTALLATION.md)             |
 | ...run the application?     | [QUICKREF.md](QUICKREF.md) / [README.md](../README.md) |
 | ...use a voice command?     | [QUICKREF.md](QUICKREF.md)                             |
 | ...configure settings?      | [QUICKREF.md](QUICKREF.md) / [README.md](../README.md) |
-| ...add a new feature?       | [DEVELOPER.md](DEVELOPER.md)                           |
+| ...add a new feature?       | [DEVELOPER.md](./setup/DEVELOPER.md)                   |
 | ...understand the code?     | [ARCHITECTURE.md](ARCHITECTURE.md)                     |
 | ...use the API?             | [API.md](API.md)                                       |
 | ...deploy to production?    | [DEPLOYMENT.md](DEPLOYMENT.md)                         |
 | ...fix a problem?           | [TROUBLESHOOTING.md](TROUBLESHOOTING.md)               |
-| ...contribute code?         | [CONTRIBUTING.md](../CONTRIBUTING.md)                  |
-| ...check release notes?     | [CHANGELOG.md](CHANGELOG.md)                           |
+| ...contribute code?         | [CONTRIBUTING.md](./guidelines/CONTRIBUTING.md)        |
+| ...check release notes?     | [CHANGELOG.md](./log/CHANGELOG.md)                     |
 
 ### "What is..."
 
-| Question                     | Answer                             |
-| ---------------------------- | ---------------------------------- |
-| ...the project overview?     | [README.md](../README.md)          |
-| ...the system architecture?  | [ARCHITECTURE.md](ARCHITECTURE.md) |
-| ...the file structure?       | [DEVELOPER.md](DEVELOPER.md)       |
-| ...available in the API?     | [API.md](API.md)                   |
-| ...included in this version? | [CHANGELOG.md](CHANGELOG.md)       |
+| Question                     | Answer                               |
+| ---------------------------- | ------------------------------------ |
+| ...the project overview?     | [README.md](../README.md)            |
+| ...the system architecture?  | [ARCHITECTURE.md](ARCHITECTURE.md)   |
+| ...the file structure?       | [DEVELOPER.md](./setup/DEVELOPER.md) |
+| ...available in the API?     | [API.md](API.md)                     |
+| ...included in this version? | [CHANGELOG.md](./log/CHANGELOG.md)   |
 
 ---
 
@@ -236,7 +236,7 @@ Each documentation file includes:
 
 ### Contributing to Docs
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for:
+See [CONTRIBUTING.md](./guidelines/CONTRIBUTING.md) for:
 
 - Documentation style guide
 - How to submit improvements
@@ -271,7 +271,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for:
 ### Path 1: Just Want to Use It
 
 1. [README.md](../README.md) - What is this?
-2. [INSTALLATION.md](INSTALLATION.md) - Install it
+2. [INSTALLATION.md](./setup/INSTALLATION.md) - Install it
 3. [QUICKREF.md](QUICKREF.md) - How to use it
 4. [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - If problems
 
@@ -280,7 +280,7 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for:
 ### Path 2: Want to Understand It
 
 1. [README.md](../README.md) - Overview
-2. [INSTALLATION.md](INSTALLATION.md) - Setup
+2. [INSTALLATION.md](./setup/INSTALLATION.md) - Setup
 3. [ARCHITECTURE.md](ARCHITECTURE.md) - How it works
 4. [API.md](API.md) - Available functions
 5. [QUICKREF.md](QUICKREF.md) - Common tasks
@@ -290,8 +290,8 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for:
 ### Path 3: Want to Extend It
 
 1. All Path 2 materials
-2. [DEVELOPER.md](DEVELOPER.md) - Development guide
-3. [CONTRIBUTING.md](../CONTRIBUTING.md) - Contributing
+2. [DEVELOPER.md](./setup/DEVELOPER.md) - Development guide
+3. [CONTRIBUTING.md](./guidelines/CONTRIBUTING.md) - Contributing
 4. [DEPLOYMENT.md](DEPLOYMENT.md) - Production
 5. [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Problem solving
 
@@ -377,7 +377,7 @@ Cross-references: 100+
 
 ### Contributing
 
-See [CONTRIBUTING.md](../CONTRIBUTING.md) for:
+See [CONTRIBUTING.md](./guidelines/CONTRIBUTING.md) for:
 
 - Bug reports
 - Feature requests
@@ -414,12 +414,12 @@ See [CONTRIBUTING.md](../CONTRIBUTING.md) for:
 ## Quick Links
 
 - [Home](../README.md)
-- [Installation](INSTALLATION.md)
+- [Installation](./setup/INSTALLATION.md)
 - [API](API.md)
 - [Architecture](ARCHITECTURE.md)
-- [Development](DEVELOPER.md)
+- [Development](./setup/DEVELOPER.md)
 - [Deployment](DEPLOYMENT.md)
 - [Troubleshooting](TROUBLESHOOTING.md)
 - [Quick Ref](QUICKREF.md)
-- [Contributing](../CONTRIBUTING.md)
-- [Changelog](CHANGELOG.md)
+- [Contributing](./guidelines/CONTRIBUTING.md)
+- [Changelog](./log/CHANGELOG.md)

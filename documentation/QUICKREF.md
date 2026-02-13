@@ -452,12 +452,12 @@ video:
 ## Documentation Links
 
 - [README.md](../README.md) - Project overview
-- [INSTALLATION.md](INSTALLATION.md) - Detailed setup
+- [INSTALLATION.md](./setup/INSTALLATION.md) - Detailed setup
 - [API.md](API.md) - API reference
 - [ARCHITECTURE.md](ARCHITECTURE.md) - System design
 - [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Common issues
 - [DEPLOYMENT.md](DEPLOYMENT.md) - Production guide
-- [CONTRIBUTING.md](../CONTRIBUTING.md) - Development guidelines
+- [CONTRIBUTING.md](./guidelines/CONTRIBUTING.md) - Development guidelines
 
 ---
 
@@ -480,7 +480,7 @@ Usage: `va-run`, `va-test`, etc.
 ## Support & Issues
 
 1. Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md) first
-2. Review [INSTALLATION.md](INSTALLATION.md) setup steps
+2. Review [INSTALLATION.md](./setup/INSTALLATION.md) setup steps
 3. Search existing GitHub issues
 4. Collect system info: `python info.py`
 5. Open new issue with details

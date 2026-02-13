@@ -536,4 +536,4 @@ async def handle_exception(exc):
 
 - [README.md](../README.md) - Project overview
 - [API.md](API.md) - API reference
-- [CONTRIBUTING.md](../CONTRIBUTING.md) - Contributing guidelines
+- [CONTRIBUTING.md](./guidelines/CONTRIBUTING.md) - Contributing guidelines

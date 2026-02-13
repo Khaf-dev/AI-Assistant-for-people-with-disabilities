@@ -456,5 +456,5 @@ except Exception as e:
 ## See Also
 
 - [README.md](../README.md) - Project overview
-- [INSTALLATION.md](INSTALLATION.md) - Setup guide
-- [CONTRIBUTING.md](../CONTRIBUTING.md) - Development guidelines
+- [INSTALLATION.md](./setup/INSTALLATION.md) - Setup guide
+- [CONTRIBUTING.md](./guidelines/CONTRIBUTING.md) - Development guidelines
