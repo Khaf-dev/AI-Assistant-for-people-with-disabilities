@@ -84,15 +84,15 @@ Start → README.md → GETTING_STARTED_v1.1.md → FEATURES_v1.1.md
 
 **Start Here:**
 
-1. [INSTALLATION.md](INSTALLATION.md) - Setup environment
-2. [ARCHITECTURE.md](ARCHITECTURE.md) - System design
-3. [API_REFERENCE.md](API_REFERENCE.md) - Complete API
+1. [INSTALLATION.md](../setup/INSTALLATION.md) - Setup environment
+2. [ARCHITECTURE.md](../ARCHITECTURE.md) - System design
+3. [API_REFERENCE.md](../guidelines/API_REFERENCE.md) - Complete API
 
 **Setup & Development:**
 
-- [QUICKREF.md](QUICKREF.md) - Common commands
-- [DEVELOPER.md](DEVELOPER.md) - How to extend code
-- [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Fix problems
+- [QUICKREF.md](../QUICKREF.md) - Common commands
+- [DEVELOPER.md](../setup/DEVELOPER.md) - How to extend code
+- [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) - Fix problems
 
 **Read:**
 
@@ -108,14 +108,14 @@ Start → INSTALLATION → ARCHITECTURE → API_REFERENCE → DEVELOPER
 
 **Start Here:**
 
-1. [INSTALLATION.md](INSTALLATION.md) - Initial setup
-2. [DEPLOYMENT.md](DEPLOYMENT.md) - Production deployment
-3. [CI_CD_PIPELINE.md](CI_CD_PIPELINE.md) - GitHub Actions
+1. [INSTALLATION.md](../setup/INSTALLATION.md) - Initial setup
+2. [DEPLOYMENT.md](../DEPLOYMENT.md) - Production deployment
+3. [CI_CD_PIPELINE.md](../CI_CD_PIPELINE.md) - GitHub Actions
 
 **Monitoring & Support:**
 
-- [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Common issues
-- [QUICKREF.md](QUICKREF.md) - Quick commands
+- [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) - Common issues
+- [QUICKREF.md](../QUICKREF.md) - Quick commands
 - [RELEASE_NOTES_v1.1.md](RELEASE_NOTES_v1.1.md) - What's new
 
 **Read:**
@@ -132,15 +132,15 @@ Start → INSTALLATION → DEPLOYMENT → CI_CD_PIPELINE → TROUBLESHOOTING
 
 **Start Here:**
 
-1. [CONTRIBUTING.md](../CONTRIBUTING.md) - Contribution guidelines
-2. [DEVELOPER.md](DEVELOPER.md) - Development setup
-3. [ARCHITECTURE.md](ARCHITECTURE.md) - System design
+1. [CONTRIBUTING.md](../guidelines/CONTRIBUTING.md) - Contribution guidelines
+2. [DEVELOPER.md](../setup/DEVELOPER.md) - Development setup
+3. [ARCHITECTURE.md](../ARCHITECTURE.md) - System design
 
 **Code & Testing:**
 
-- [API_REFERENCE.md](API_REFERENCE.md) - Understanding modules
-- [CI_CD_PIPELINE.md](CI_CD_PIPELINE.md) - Automated testing
-- [QUICKREF.md](QUICKREF.md) - Development commands
+- [API_REFERENCE.md](../guidelines/API_REFERENCE.md) - Understanding modules
+- [CI_CD_PIPELINE.md](../CI_CD_PIPELINE.md) - Automated testing
+- [QUICKREF.md](../QUICKREF.md) - Development commands
 
 **Read:**
 
@@ -154,7 +154,7 @@ Start → CONTRIBUTING → DEVELOPER → ARCHITECTURE → API_REFERENCE
 
 ### Installation & Setup
 
-- [INSTALLATION.md](INSTALLATION.md) - Initial setup
+- [INSTALLATION.md](../setup/INSTALLATION.md) - Initial setup
 - [GETTING_STARTED_v1.1.md](GETTING_STARTED_v1.1.md) - Quick start
 - [QUICKREF.md](QUICKREF.md) - Common commands
 
@@ -164,24 +164,24 @@ Start → CONTRIBUTING → DEVELOPER → ARCHITECTURE → API_REFERENCE
   - Multi-language support
   - Face recognition
   - Sound localization
-- [API_REFERENCE.md](API_REFERENCE.md) - API details
+- [API_REFERENCE.md](../guidelines/API_REFERENCE.md) - API details
 
 ### Architecture & Design
 
 - [ARCHITECTURE.md](ARCHITECTURE.md) - System design
-- [DEVELOPER.md](DEVELOPER.md) - Developer guide
-- [BUILD_SUMMARY.md](BUILD_SUMMARY.md) - Build details
+- [DEVELOPER.md](../setup/DEVELOPER.md) - Developer guide
+- [BUILD_SUMMARY.md](../summary/BUILD_SUMMARY.md) - Build details
 
 ### Deployment & Operations
 
 - [DEPLOYMENT.md](DEPLOYMENT.md) - Production deployment
 - [CI_CD_PIPELINE.md](CI_CD_PIPELINE.md) - Automated testing
-- [TROUBLESHOOTING.md](TROUBLESHOOTING.md) - Problem solving
+- [TROUBLESHOOTING.md](../TROUBLESHOOTING.md) - Problem solving
 
 ### Release & Updates
 
 - [RELEASE_NOTES_v1.1.md](RELEASE_NOTES_v1.1.md) - v1.1 features
-- [CHANGELOG.md](CHANGELOG.md) - Version history
+- [CHANGELOG.md](../log/CHANGELOG.md) - Version history
 - [SECURITY.md](../SECURITY.md) - Security info
 
 ---
@@ -200,11 +200,11 @@ Start → CONTRIBUTING → DEVELOPER → ARCHITECTURE → API_REFERENCE
 
 #### "...use the API"
 
-→ [API_REFERENCE.md](API_REFERENCE.md)
+→ [API_REFERENCE.md](../guidelines/API_REFERENCE.md)
 
 #### "...install from scratch"
 
-→ [INSTALLATION.md](INSTALLATION.md)
+→ [INSTALLATION.md](../setup/INSTALLATION.md)
 
 #### "...deploy to production"
 
@@ -216,7 +216,7 @@ Start → CONTRIBUTING → DEVELOPER → ARCHITECTURE → API_REFERENCE
 
 #### "...fix a problem"
 
-→ [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+→ [TROUBLESHOOTING.md](../TROUBLESHOOTING.md)
 
 #### "...contribute code"
 
@@ -232,7 +232,7 @@ Start → CONTRIBUTING → DEVELOPER → ARCHITECTURE → API_REFERENCE
 
 #### "...extend the system"
 
-→ [DEVELOPER.md](DEVELOPER.md)
+→ [DEVELOPER.md](../setup/DEVELOPER.md)
 
 ---
 
@@ -361,9 +361,9 @@ CHANGELOG.md              - Version history
 **Complete Feature Documentation:**
 
 - [FEATURES_v1.1.md](FEATURES_v1.1.md) - 3 major features with examples
-- [API_REFERENCE.md](API_REFERENCE.md) - Complete API + code samples
+- [API_REFERENCE.md](../guidelines/API_REFERENCE.md) - Complete API + code samples
 - [GETTING_STARTED_v1.1.md](GETTING_STARTED_v1.1.md) - Practical quick start
-- [CI_CD_PIPELINE.md](CI_CD_PIPELINE.md) - Automated testing setup
+- [CI_CD_PIPELINE.md](../CI_CD_PIPELINE.md) - Automated testing setup
 - [RELEASE_NOTES_v1.1.md](RELEASE_NOTES_v1.1.md) - Full release details
 
 ### 📖 Comprehensive Guides
@@ -383,22 +383,22 @@ CHANGELOG.md              - Version history
 
 - Getting Started: [GETTING_STARTED_v1.1.md#getting-started-multi-language-support](GETTING_STARTED_v1.1.md)
 - Features: [FEATURES_v1.1.md#phase-1-multi-language-support](FEATURES_v1.1.md)
-- API: [API_REFERENCE.md#speech-engine](API_REFERENCE.md)
+- API: [API_REFERENCE.md#speech-engine](../guidelines/API_REFERENCE.md)
 - Commands: [FEATURES_v1.1.md#key-features-1](FEATURES_v1.1.md)
 
 ### Face Recognition Documentation
 
 - Getting Started: [GETTING_STARTED_v1.1.md#getting-started-face-recognition](GETTING_STARTED_v1.1.md)
 - Features: [FEATURES_v1.1.md#phase-2-face-recognition-with-training](FEATURES_v1.1.md)
-- API: [API_REFERENCE.md#face-recognizer](API_REFERENCE.md)
-- Troubleshooting: [TROUBLESHOOTING.md#face-recognition-issues](TROUBLESHOOTING.md)
+- API: [API_REFERENCE.md#face-recognizer](../guidelines/API_REFERENCE.md)
+- Troubleshooting: [TROUBLESHOOTING.md#face-recognition-issues](../TROUBLESHOOTING.md)
 
 ### Sound Localization Documentation
 
 - Getting Started: [GETTING_STARTED_v1.1.md#getting-started-sound-localization](GETTING_STARTED_v1.1.md)
 - Features: [FEATURES_v1.1.md#phase-3-sound-localization--obstacle-detection](FEATURES_v1.1.md)
-- API: [API_REFERENCE.md#sound-localizer](API_REFERENCE.md)
-- Troubleshooting: [TROUBLESHOOTING.md#sound-localization-issues](TROUBLESHOOTING.md)
+- API: [API_REFERENCE.md#sound-localizer](../guidelines/API_REFERENCE.md)
+- Troubleshooting: [TROUBLESHOOTING.md#sound-localization-issues](../TROUBLESHOOTING.md)
 
 ---
 
@@ -465,15 +465,15 @@ START HERE
 
 ### Feature Questions
 
-See [FEATURES_v1.1.md](FEATURES_v1.1.md) first, then check [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+See [FEATURES_v1.1.md](FEATURES_v1.1.md) first, then check [TROUBLESHOOTING.md](../TROUBLESHOOTING.md)
 
 ### API Questions
 
-Check [API_REFERENCE.md](API_REFERENCE.md) for detailed examples
+Check [API_REFERENCE.md](../guidelines/API_REFERENCE.md) for detailed examples
 
 ### Deployment Questions
 
-See [DEPLOYMENT.md](DEPLOYMENT.md) and [CI_CD_PIPELINE.md](CI_CD_PIPELINE.md)
+See [DEPLOYMENT.md](../DEPLOYMENT.md) and [CI_CD_PIPELINE.md](../CI_CD_PIPELINE.md)
 
 ---
 

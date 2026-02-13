@@ -13,7 +13,7 @@ Complete documentation for Vision Assistant v1.1.0 - Stable Release
   - Known issues
   - Roadmap
 
-- **[CHANGELOG.md](CHANGELOG.md)** - Complete Change History
+- **[CHANGELOG.md](./log/CHANGELOG.md)** - Complete Change History
   - v1.1.0 detailed changes (Phase 1, 2, 3)
   - v1.0.0 baseline features
   - New dependencies
@@ -46,7 +46,7 @@ Complete documentation for Vision Assistant v1.1.0 - Stable Release
   - Data flow
   - Integration points
 
-- **[DEVELOPER.md](DEVELOPER.md)** - Developer Guidelines
+- **[DEVELOPER.md](./setup/DEVELOPER.md)** - Developer Guidelines
   - Code structure
   - Contributing guidelines
   - Testing procedures
@@ -54,7 +54,7 @@ Complete documentation for Vision Assistant v1.1.0 - Stable Release
 
 ### Support & Troubleshooting
 
-- **[TROUBLESHOOTING.md](.TROUBLESHOOTING.md)** - Common Issues & Solutions
+- **[TROUBLESHOOTING.md](TROUBLESHOOTING.md)** - Common Issues & Solutions
   - Audio issues
   - Face recognition problems
   - Speech recognition errors
@@ -87,7 +87,7 @@ Complete documentation for Vision Assistant v1.1.0 - Stable Release
   - Complete file listing
   - Cross-references
 
-- **[INSTALLATION.MD](INSTALLATION.MD)** - Installation Guide
+- **[INSTALLATION.MD](./setup/INSTALLATION.MD)** - Installation Guide
   - Step-by-step setup
   - Dependency installation
   - Troubleshooting installation issues
@@ -103,14 +103,14 @@ Complete documentation for Vision Assistant v1.1.0 - Stable Release
 ### For Developers
 
 1. Read [ARCHITECTURE.md](ARCHITECTURE.md) for system design
-2. Review [DEVELOPER.md](DEVELOPER.md) for contribution guidelines
+2. Review [DEVELOPER.md](./setup/DEVELOPER.md) for contribution guidelines
 3. Check [CONFIG_GUIDE.md](./v.1.1/CONFIG_GUIDE.md) for configuration options
 
 ### For Troubleshooting
 
 1. Consult [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 2. Check [CONFIG_GUIDE.md](./v.1.1/CONFIG_GUIDE.md) for settings
-3. Review [CHANGELOG.md](CHANGELOG.md) for known issues
+3. Review [CHANGELOG.md](./log/CHANGELOG.md) for known issues
 
 ### For Deployment
 
@@ -208,7 +208,7 @@ Complete documentation for Vision Assistant v1.1.0 - Stable Release
 
 ### Advanced
 
-- [ ] Study [DEVELOPER.md](DEVELOPER.md)
+- [ ] Study [DEVELOPER.md](./setup/DEVELOPER.md)
 - [ ] Review code in `ai_modules/`
 - [ ] Contribute features
 - [ ] Deploy to production
